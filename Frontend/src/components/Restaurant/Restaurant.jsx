@@ -1,5 +1,9 @@
 import React from 'react'
 import "./Restaurant.scss"
+import { MdOutlineFreeBreakfast } from "react-icons/md";
+import { MdBrunchDining } from "react-icons/md";
+import { MdLunchDining } from "react-icons/md";
+import { MdDinnerDining } from "react-icons/md";
 const Restaurant = () => {
   return (
    <>
@@ -11,21 +15,27 @@ const Restaurant = () => {
         </div>
         <div className="cards1">
             <div className="card12">
-                <h1>2002</h1> <br />
+            <MdOutlineFreeBreakfast style={{fontSize:"55px", color:"brown", position:"absolute", left:"355px", bottom:"95px"}} /> <br />
+                <h1>BreakFast</h1> <br />
                 <p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat.</p>
             </div>
             <div className="card12">
-                <h1>2010</h1> <br />
+            <MdBrunchDining  style={{fontSize:"55px", color:"brown", position:"absolute", left:"735px", bottom:"115px"}}/>
+                <h1>Brunch</h1> <br />
                 <p>Stpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium.</p>
             </div>
             <div className="card12">
-                <h1>2018</h1> <br />
+            <MdLunchDining  style={{fontSize:"55px", color:"brown", position:"absolute", left:"1115px", bottom:"110px"}}/>
+                <h1>Lunch</h1> <br />
+                <p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat.</p>
+            </div>
+            <div className="card12">
+            <MdDinnerDining  style={{fontSize:"55px", color:"brown", position:"absolute", left:"1489px", bottom:"110px"}}/>
+                <h1>Dinner</h1> <br />
                 <p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat.</p>
             </div>
         </div>
-        <div className="image">
-                <img src="https://preview.colorlib.com/theme/pulse/img/sign.png" alt="" />
-            </div>
+    
         
 
     </section>
