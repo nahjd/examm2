@@ -1,0 +1,49 @@
+.About2{
+ 
+    top: -120px;
+    position: absolute;
+    h1{
+        font-size: 85px;
+        position: absolute;
+        right: -790px;
+        text-align: center;
+        font-size: 45px;
+        color: rgb(75, 75, 75);
+    }
+    }
+    .container2{
+       
+        position: relative;
+        top: -765px;
+    //    border: 1px solid red;
+    }
+    .hrr1{
+        border: 1px solid orange;
+    }
+    .cards1{
+        margin-top: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 28px;
+    }
+    .card12 {
+       
+        width: 350px;
+     
+        // border: 1px solid red;
+       h1{
+        text-align: center;
+       }
+       p{
+        color: rgb(129, 128, 128);
+        text-align: center;
+       }
+    }
+    .image{
+        margin-top: 55px;
+        img{
+           position: absolute;
+           left: 880px;
+        }
+    }

@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    h4{
+      color:rgb(238, 185, 13);
+     
+    }
+}
+.buttons{
+    border: none;
+
+    font-size: 25px;
+    display: flex;
+    gap: 25px;
+
+    position: relative;
+    right:  450px;
+    cursor: pointer;
+}
+.hrcolor{
+    width: 98%;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 20px;
+}
+.texttt {
+ 
+    position: absolute;
+   font-size: 25px;
+    top: 450px;
+    right: 600px;
+    // border: 10px solid red;
+   h1{
+    font-size: 125px;
+   }
+   p{
+    position: absolute;
+    right:0px;
+    bottom: 1px;
+   }
+}
+

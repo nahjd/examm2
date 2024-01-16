@@ -1,0 +1,43 @@
+.About{
+margin-top: 850px;
+h1{
+    text-align: center;
+    font-size: 45px;
+    color: rgb(75, 75, 75);
+}
+}
+.container{
+    position: relative;
+    top: 65px;
+//    border: 1px solid red;
+}
+.hrr{
+    border: 1px solid yellow;
+}
+.cards{
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+.card1 {
+   
+    width: 350px;
+ 
+    // border: 1px solid red;
+   h1{
+    text-align: center;
+   }
+   p{
+    color: rgb(129, 128, 128);
+    text-align: center;
+   }
+}
+.image{
+    margin-top: 55px;
+    img{
+       position: absolute;
+       left: 880px;
+    }
+}
