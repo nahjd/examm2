@@ -12,7 +12,7 @@ const userDelete= async (req,res)=>{
 }
 
 const userPost = async (req, res) => {
-    let found = await people.getPost(req.body)
+    let found = await new people(req.body)
     found.save()
 
 }

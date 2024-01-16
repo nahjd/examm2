@@ -4,6 +4,7 @@ import About from "../components/About/About"
 import Restaurant from "../components/Restaurant/Restaurant"
 import News from "../components/News/News"
 import Contact from "../components/Contact/Contact"
+import Addpost from "../components/Addpost/Addpost"
 export const routes = [
     {
     path:"/",
@@ -32,6 +33,10 @@ export const routes = [
         {
             path:"/contact",
             element:<Contact />
+        },
+        {
+            path:"/addpost",
+            element:<Addpost />
         },
         
     ]
